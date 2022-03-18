@@ -23,7 +23,7 @@ class NewTodoForm extends Component {
         evt.preventDefault();
         this.props.createTodo({...this.state, id: uuid(), completed: false })
         this.setState({
-            task: "hello"
+            task: ""
         });
     }
 
